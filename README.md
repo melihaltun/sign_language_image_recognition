@@ -11,6 +11,8 @@ Download the dataset from: https://github.com/ardamavi/Sign-Language-Digits-Data
 
 Extract the contents of train folder to "./Sign-Language-Digits-Dataset/" folder under the project folder
 
-During the first run the code will do a random sampling of the data form the train, test, validation sets. They will be reused in the subsequent runs. Number of images in each set can be modified as needed. If a new train, validation & test set is needed, delete the "test", "train", and "valid" folders under "./cats_vs_dogs/"
+During the first run the code will do a random sampling of the data and form the train, test, validation sets. They will be reused in the subsequent runs. Number of images in each set can be modified as needed. If a new train, validation & test set is needed, delete the "test", "train", and "valid" folders under "./cats_vs_dogs/"
+
+The code will save the trained model and use it the next time it is called. To retrain a model, go to "./models/" folder under the project library and delete the "sign_language_model.h5" file.
 
 GPU parallelization is turned off, but it can be turned on by uncommenting the relevant line.
