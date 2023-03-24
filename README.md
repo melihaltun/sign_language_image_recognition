@@ -1,2 +1,16 @@
 # SignLanguageImageRecognition
 A sign language image classification using transfer learning from MobileNet model. 
+
+A deep CNN implementation that modifies the last few layers of the pretrained MobileNet model and repurposes it to classify sign language digit images.
+
+Depending on the selected subset of training and testing images, 99 to 100% accuracy is usually achieved.
+
+The code needs tensorflow, keras, numpy, pandas, matplotlib, sklearn, itertools and glob installed in the Python environment.
+
+Download the dataset from: https://github.com/ardamavi/Sign-Language-Digits-Dataset
+
+Extract the contents of train folder to "./Sign-Language-Digits-Dataset/" folder under the project folder
+
+During the first run the code will do a random sampling of the data form the train, test, validation sets. They will be reused in the subsequent runs. Number of images in each set can be modified as needed. If a new train, validation & test set is needed, delete the "test", "train", and "valid" folders under "./cats_vs_dogs/"
+
+GPU parallelization is turned off, but it can be turned on by uncommenting the relevant line.
