@@ -8,6 +8,7 @@ Depending on the selected subset of training and testing images, 99 to 100% accu
 The code needs tensorflow, keras, numpy, pandas, matplotlib, sklearn, itertools and glob installed in the Python environment.
 
 Download the dataset from: https://github.com/ardamavi/Sign-Language-Digits-Dataset
+![image](https://user-images.githubusercontent.com/40482921/234691854-28418994-2e7f-46bb-9b3a-2a863047401c.png)
 
 Extract the contents of train folder to "./Sign-Language-Digits-Dataset/" folder under the project folder
 
