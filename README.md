@@ -17,3 +17,5 @@ During the first run the code will do a random sampling of the data and form the
 The code will save the trained model and use it the next time it is called. To retrain a model, go to "./models/" folder under the project library and delete the "sign_language_model.h5" file.
 
 GPU parallelization is turned off, but it can be turned on by uncommenting the relevant line.
+
+For GPU utilization, a combination of Python 3.8, Tensorflow 2.10.0, CUDA 11.2, CUDNN 8.8.1 and Zlib works for this model, although other configurations may also be possible.
